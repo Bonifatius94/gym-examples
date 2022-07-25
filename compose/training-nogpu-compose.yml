@@ -1,0 +1,8 @@
+version: '2.3'
+
+services:
+  frozen_lake_training:
+    build:
+      context: ..
+    environment:
+      PYTHONUNBUFFERED: 1

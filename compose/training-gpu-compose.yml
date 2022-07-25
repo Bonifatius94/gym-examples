@@ -1,0 +1,9 @@
+version: '2.3'
+
+services:
+  frozen_lake_training:
+    build:
+      context: ..
+    runtime: nvidia
+    environment:
+      PYTHONUNBUFFERED: 1
